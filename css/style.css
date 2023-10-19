@@ -44,3 +44,9 @@ main {
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
 }
+
+/* CARDS */
+
+.avatar {
+    width: 1.5rem;
+}
