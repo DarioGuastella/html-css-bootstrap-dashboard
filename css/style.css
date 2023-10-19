@@ -1,12 +1,11 @@
 body {
     height: 100vh;
     background: #222;
-    color: white;
     display: flex;
     flex-wrap: wrap;
 }
 
-nav {
+#left-nav {
     background: #051e34;
     height: calc(100% - 60px);
     width: 9rem;
@@ -24,3 +23,7 @@ main {
     background: #e5e5e5;
     overflow-y: auto;
 }
+
+/* COLORI DI SFONDO */
+
+.bgLightgrey {background-color: #e5e5e5;}
