@@ -15,16 +15,16 @@
     <header>
         
             <div class="container-fluid h-100">
-                <div class="row navbar bg-body-tertiary h-100">
-                    <div class="col-1">
-                        <a class="navbar-brand d-none d-sm-inline-block">
+                <div class="row navbar h-100">
+                    <div class="col-3 col-sm-2 col-md-1">
+                        <a class="navbar-brand d-none d-md-inline-block">
                             <img src="img/logo.svg" alt="Boolean Logo">
                         </a>
-                        <a class="navbar-brand d-sm-none" href="#">
+                        <a class="navbar-brand d-md-none" href="#">
                             <img src="img/mobile-logo.png" alt="Bootstrap" width="50" height="50">
                         </a>
                     </div>
-                    <div class="col-10">
+                    <div class="col-6 col-sm-8 col-md-10">
                         <div class="input-group flex-nowrap bgLightgrey rounded">
                             <span class="input-group-text border-0 bg-transparent" id="addon-wrapping">
                                 <i class="fa-regular fa-magnifying-glass"></i>
@@ -32,7 +32,7 @@
                             <input type="text" class="form-control bg-transparent border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                           </div>
                     </div>
-                    <div class="col-1 d-flex justify-content-around text-secondary">
+                    <div class="col-3 col-sm-2 col-md-1 d-flex justify-content-around text-secondary">
                         <i class="fa-regular fa-list"></i>
                         <i class="fa-solid fa-circle-question"></i>
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -43,7 +43,64 @@
             </div>
         
     </header>
-    <nav id="left-nav"></nav>
+    <nav id="left-nav" class="d-flex flex-column text-white justify-content-between text-center">
+        <div class="navtop pt-4">
+            <!-- <div class="d-flex justify-content-between align-items-center px-4">
+                <i class="fa-solid fa-house"></i>
+                <div class="d-none d-md-inline-block">Home</div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center px-4">
+                <i class="fa-solid fa-house"></i>
+                <div class="d-none d-md-inline-block">Stats</div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center px-4">
+                <i class="fa-solid fa-house"></i>
+                <div class="d-none d-md-inline-block">Signals</div>
+            </div> -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="col-8 text-start ps-0">
+                        <div class="d-none d-md-inline-block">Home</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <div class="col-8 text-start ps-0">
+                        <div class="d-none d-md-inline-block">Stats</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <i class="fa-solid fa-signal"></i>
+                    </div>
+                    <div class="col-8 text-start ps-0">
+                        <div class="d-none d-md-inline-block">Signals</div>
+                    </div>
+                </div>
+                
+            </div>
+           
+            
+        </div>
+        <div class="navbottom pb-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="col-8 text-start ps-0">
+                        <div class="d-none d-md-inline-block">Admin</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
     <main></main>
 
 

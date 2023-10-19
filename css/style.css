@@ -14,7 +14,7 @@ body {
 header {
     width: 100%;
     height: 60px;
-    background: #f8f9fa;
+    background: white;
 }
 
 main {
@@ -28,16 +28,18 @@ main {
 
 .bgLightgrey {background-color: #e5e5e5;}
 
-/* NAVBAR LATERALE */
+/* COLLASSO NAVBAR LATERALE */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     #left-nav {
         width: 4.5rem;
     }
     main {
         width: calc(100% - 4.5rem);
-    }
+    }    
+}
 
-
-    
+#left-nav {
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
 }
