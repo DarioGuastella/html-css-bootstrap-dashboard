@@ -56,3 +56,12 @@ main {
     #offcanvasWithBothOptions {width: 50%;}
     
 }
+
+/* NAV ICONS */
+
+@media screen and (min-width: 768px) {
+    .stats {
+    right: 5px;
+    position: relative;
+    }
+}
