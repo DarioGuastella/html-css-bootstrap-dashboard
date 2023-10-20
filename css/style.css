@@ -50,3 +50,19 @@ main {
 .avatar {
     width: 1.5rem;
 }
+
+/* DROPSDOWN */
+
+@media screen and (max-width: 768px){
+    #offcanvasWithBothOptions {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    #offcanvasWithBothOptions {
+        width: 50%;
+    }
+    
+}
