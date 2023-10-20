@@ -32,12 +32,8 @@ main {
 /* COLLASSO NAVBAR LATERALE */
 
 @media screen and (max-width: 768px) {
-    #left-nav {
-        width: 4.5rem;
-    }
-    main {
-        width: calc(100% - 4.5rem);
-    }    
+    #left-nav {width: 4.5rem;}
+    main {width: calc(100% - 4.5rem);}    
 }
 
 #left-nav {
@@ -47,22 +43,16 @@ main {
 
 /* CARDS */
 
-.avatar {
-    width: 1.5rem;
-}
+.avatar {width: 1.5rem;}
 
 /* DROPSDOWN */
 
 @media screen and (max-width: 768px){
-    #offcanvasWithBothOptions {
-        width: 100%;
-    }
+    #offcanvasWithBothOptions {width: 100%;}
     
 }
 
 @media screen and (min-width: 992px){
-    #offcanvasWithBothOptions {
-        width: 50%;
-    }
+    #offcanvasWithBothOptions {width: 50%;}
     
 }
