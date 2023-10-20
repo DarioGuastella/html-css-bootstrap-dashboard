@@ -16,25 +16,26 @@
 
         <div class="container-fluid h-100">
             <div class="row navbar h-100">
-                <div class="col-2 col-sm-1 col-md-2">
-                    <a class="navbar-brand d-none d-md-inline-block">
-                        <img src="img/logo.svg" alt="Boolean Logo">
-                    </a>
-                    <a class="navbar-brand d-md-none" href="#">
-                        <img src="img/mobile-logo.png" alt="Bootstrap" width="50" height="50">
-                    </a>
-                </div>
-                <div class="col-9 col-sm-10 col-md-8">
-                    <div class="input-group flex-nowrap bgLightgrey rounded">
-                        <span class="input-group-text border-0 bg-transparent" id="addon-wrapping">
-                            <i class="fa-regular fa-magnifying-glass"></i>
-                        </span>
-                        <input type="text" class="form-control bg-transparent border-0"
-                            placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username"
-                            aria-describedby="addon-wrapping">
+                <!-- <div class="col-2 col-sm-1 col-md-2"> -->
+                    <div class="col-auto">
+                        <a class="navbar-brand d-none d-md-inline-block">
+                            <img src="img/logo.svg" alt="Boolean Logo">
+                        </a>
+                        <a class="navbar-brand d-md-none" href="#">
+                            <img src="img/mobile-logo.png" alt="Bootstrap" width="50" height="50">
+                        </a>
+                    </div>
+                <!-- <div class="col-9 col-sm-10 col-md-8"> -->
+                    <div class="col">
+                    <div class="input-group">
+                        <div class="input-group-text" id="btnGroupAddon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Input group example" aria-describedby="btnGroupAddon">
                     </div>
                 </div>
-                <div class="col-1 col-sm-1 col-md-2 d-flex justify-content-end text-secondary align-items-center">
+                <!-- <div class="col-1 col-sm-1 col-md-2 d-flex justify-content-end text-secondary align-items-center"> -->
+                <div class="col-auto d-flex justify-content-end text-secondary align-items-center">
                     <a class="text-secondary d-none d-md-block" href="#"><i class="fa-regular fa-list"></i></a>
                     <a class="text-secondary d-none d-md-block px-3" href="#"><i class="fa-solid fa-circle-question"></i></a>
                     <a class="text-secondary d-none d-md-block pe-2" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
